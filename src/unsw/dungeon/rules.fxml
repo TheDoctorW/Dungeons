@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="598.0" styleClass="pane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="195.0" layoutY="20.0" prefHeight="41.0" prefWidth="210.0" styleClass="pane" stylesheets="@style.css" text="Dungeon Rules" textFill="#d00e0e">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="270.0" layoutY="297.0" mnemonicParsing="false" onAction="#handleBackButton" prefHeight="29.0" prefWidth="58.0" stylesheets="@style.css" text="Back" textFill="#2307fa" />
+      <Label layoutX="225.0" layoutY="67.0" text="Player have 3 initial lifes" textFill="#34fc07">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="181.0" layoutY="92.0" text="Player can collect itmes on the ground" textFill="#0cf803">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="129.0" layoutY="120.0" text="Player can only hold one sword and one key at the time" textFill="#5cff04">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="151.0" text="Each potion will set player invincible for 10 sec (reset timer every time)" textFill="#42fc05">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="132.0" layoutY="179.0" text="Each cure will add 1 life for player (player max life is 3)" textFill="#05fc26">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="205.0" text="Each boss can only be killed by invincible player" textFill="#04ff36">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="231.0" text="Each soldier can be killed by invincible player or hitting sword one times" textFill="#16fc01">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="191.0" layoutY="256.0" text="Each sword can only be hit 5 times" textFill="#06f826">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

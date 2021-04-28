@@ -1,0 +1,7 @@
+.button:hover{
+    -fx-background-color: pink;
+}
+
+.pane {
+    -fx-background-color: black;
+}

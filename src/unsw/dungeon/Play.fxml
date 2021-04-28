@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" styleClass="pane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="169.0" layoutY="57.0" prefHeight="77.0" prefWidth="264.0" text="Sellect Difficulty" textFill="#dd0d0d">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <Button fx:id="easy" layoutX="36.0" layoutY="239.0" mnemonicParsing="false" onAction="#hundleEasyButton" prefHeight="77.0" prefWidth="151.0" stylesheets="@style.css" text="Easy" textFill="#1ada34" />
+      <Button fx:id="medium" layoutX="225.0" layoutY="239.0" mnemonicParsing="false" onAction="#hundleMediumButton" prefHeight="77.0" prefWidth="151.0" stylesheets="@style.css" text="Medium" textFill="#d1c31b" />
+      <Button fx:id="hard" layoutX="418.0" layoutY="239.0" mnemonicParsing="false" onAction="#hundleHardButton" prefHeight="77.0" prefWidth="151.0" stylesheets="@style.css" text="Hard" textFill="#ee0b0b" />
+      <Label layoutX="261.0" layoutY="157.0" prefHeight="43.0" prefWidth="82.0" text="Enemies AND" textFill="#0fd6c1" />
+      <Label layoutX="47.0" layoutY="207.0" prefHeight="0.0" prefWidth="131.0" text=" (Boulders OR Treasure)" textFill="#0fd6c1" />
+      <Label layoutX="72.0" layoutY="158.0" prefHeight="43.0" prefWidth="82.0" text="Enemies AND" textFill="#0fd6c1" />
+      <Label layoutX="275.0" layoutY="207.0" prefHeight="17.0" prefWidth="53.0" text=" Treasure" textFill="#0fd6c1" />
+      <Label layoutX="456.0" layoutY="170.0" text="Enemies AND" textFill="#0fd6c1" />
+      <Label layoutX="430.0" layoutY="207.0" text="Boulders AND Treasure" textFill="#0fd6c1" />
+      <Button fx:id="backButton" layoutX="278.0" layoutY="359.0" mnemonicParsing="false" onAction="#handleBackButton" stylesheets="@style.css" text="Back" textFill="#1b0af5" />
+      <Label layoutX="94.0" layoutY="130.0" prefHeight="27.0" prefWidth="35.0" text="Goal:" textFill="#0fd6c1" />
+      <Label layoutX="283.0" layoutY="130.0" prefHeight="27.0" prefWidth="35.0" text="Goal:" textFill="#0fd6c1" />
+      <Label layoutX="477.0" layoutY="130.0" prefHeight="27.0" prefWidth="35.0" text="Goal:" textFill="#0fd6c1" />
+   </children>
+</AnchorPane>
