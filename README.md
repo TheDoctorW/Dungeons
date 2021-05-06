@@ -1,4 +1,5 @@
-# Project
+# Dungeons
+UNSW COMP2511 Project
 
 ## Aims
 
