@@ -1,5 +1,5 @@
 # Dungeons
-UNSW COMP2511 Project, small Dungeon game write by basic Java
+UNSW COMP2511 Project, small Dungeon game write by basic Java (Java SE only)
 
 ## Aims
 
